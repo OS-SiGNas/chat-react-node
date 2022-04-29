@@ -1,0 +1,29 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "simple prueba de un chat en tiempo real",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc"
+  },
+  "author": "Alfredo Manrique",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.4.1",
+    "ts-node": "^10.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.3",
+    "@types/socket.io": "^3.0.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
